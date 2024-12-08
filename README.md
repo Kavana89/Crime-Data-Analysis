@@ -16,6 +16,16 @@ This project analyzes crime data across different states, with a focus on crime 
 **Matplotlib**: Library for creating static, animated, and interactive visualizations.
 **Scikit-learn**: Used for standard scaling and modeling tasks (though not used directly in the given code).
 
+## Code Example
+
+```python
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+```
 ## Installation Instructions
 
 ### Requirements:
